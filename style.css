@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    height: 70px;
+    background-color: #3f8a6b;
+    padding: 25px;
+}
+.header a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 70px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.main img{
+    width: 100%;
+    height: 577px;
+}
+.divtext{
+    text-align: center;
+    width: 500px;
+    line-height: 30px;
+    margin-top: -250px;
+    margin-left: 31.5%;
+    color: whitesmoke;
+}
+.divtext button{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.divtext p{
+    font-style: italic;
+}
+.aboutcontact{
+    height: 70px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+.aboutcontent{
+    display: inline-block;
+    position: relative;
+    margin-top: 70px;
+}
+.left{
+    width: 40%;
+    height: 400px;
+}
+.left img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.right{
+    width: 55%;
+    height: 400px;
+    position: absolute;
+    right: 10px;
+    line-height: 25px;
+}
+.rightofcontact{
+    width: 400px;
+    font-size: 17px;
+    line-height: 40px;
+    margin-right: 200px;
+}
+.rightofcontact h2{
+    text-align: center;
+}
+.rightofcontact input{
+    height: 30px;
+    width: 370px;
+}
+.rightofcontact textarea{
+    height: 60px;
+    width: 370px;
+}
+.rightofcontact button{
+    height: 30px;
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 140px;
+}
